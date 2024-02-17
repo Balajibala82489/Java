@@ -1,0 +1,16 @@
+
+
+import java.io.*;
+import importjava.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int counter=1;
+        while(sc.hasNext()){
+            System.out.println(counter+ " "+sc.nextLine());
+            counter=counter+1;
+        }
+    }
+}
